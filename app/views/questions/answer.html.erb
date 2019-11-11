@@ -1,0 +1,11 @@
+<div class="message">
+  <p> <%= @question %> </p>
+  <p class="subtitle">-You</p>
+</div>
+
+<div class="message">
+  <p> <%= @answer %> </p>
+  <p class="subtitle">-Your coach</p>
+</div>
+
+<%= link_to "Ask another question", ask_path, class: "btn btn-primary" %>
